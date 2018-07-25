@@ -24,7 +24,7 @@ String color=JOptionPane.showInputDialog("How many sides do you want");
 	}
 
 	for (int i = 0; i < Integer.parseInt(color) ; i++) {
-		System.out.println(i);
+		System.out.println(color);
 	one.penDown();
 	one.setSpeed(100);
 	one.move(30);
